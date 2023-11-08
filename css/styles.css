@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  align-self: center;
+  font-family: Montserrat;
+}
+
+body {
+  background-image: linear-gradient(
+    to right top,
+    #ffffff,
+    #e2e2e5,
+    #c5c6cc,
+    #a8aab4,
+    #8c909c,
+    #79818c,
+    #67727c,
+    #56646b,
+    #4e5b5d,
+    #485150,
+    #434846,
+    #3d3e3d
+  );
+}
+
+/*MAIN SECTION*/
+.container__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 100vh;
+}
+
+.container__contador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 0.2rem;
+  height: auto;
+  width: auto;
+  border-radius: 1rem;
+}
+
+/* TITLE SECTION */
+.title {
+  color: rgb(255 255 255);
+  font-size: 5rem;
+  font-weight: 900;
+  grid-area: auto;
+  letter-spacing: 0.882px;
+  line-height: 36.96px;
+  margin: 0px 523.088px 35px;
+  text-align: center;
+}
+/*BUTTON SECTION*/
+
+.btn {
+  padding: 18px 26px;
+  border: 0;
+  font-size: 16px;
+  transition: all 150ms ease-in-out;
+  border-radius: 8px;
+  font-weight: 600;
+  color: #111727;
+  background-color: #ffffff;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    #f9fafb 100%
+  );
+}
+
+.btn:hover {
+  filter: brightness(0.98);
+  box-shadow: rgba(98, 98, 98, 0.9) 0 0 0 1px inset,
+  rgba(156, 156, 156, 0.95) 0 -1px 2px 0 inset,
+  rgba(17, 24, 39, 0.04) 0 1px 1px 0;
+}
+
+.btn {
+  background-image: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    #f9fafb 100%
+  );
+  box-shadow: rgba(229, 231, 235, 0.9) 0 0 0 1px inset,
+    rgba(209, 213, 219, 0.95) 0 1px 2px 0 inset;
+}
+
+#resta {
+  background-color: rgb(254, 74, 74);
+}
+#resta:hover,
+#resta:focus {
+  background-color: rgb(206, 2, 2);
+}
+
+#suma {
+  background-color: rgb(124, 250, 78);
+}
+#suma:hover,
+#suma:focus {
+  background-color: rgb(0, 171, 0);
+}
+
+#reset {
+  background-color: blue;
+}
+#reset:hover,
+#reset:focus {
+  background-color: rgb(55, 44, 251);
+}
+
+/*VALOR SECTION*/
+
+.valor {
+  width: 5rem;
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+}
