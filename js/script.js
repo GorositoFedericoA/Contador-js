@@ -18,7 +18,8 @@ try {
                 valor.textContent = contador            
                 console.log(contador)
             }else if(boton.id === "reset"){
-                valor.textContent = 0
+                contador = 0
+                valor.textContent = contador
             }
 
         })
